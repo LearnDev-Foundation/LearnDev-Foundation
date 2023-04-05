@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import Notification from '../Notification/Notification';
 import navLogo from '../../assets/logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 import "./NavBar.scss";
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -40,16 +41,16 @@ const NavBar = () => {
         <div className="app__navbar_hamburger">
           <FontAwesomeIcon icon={faBars} beat className='.app__navbar_hamburger-icon' onClick={() => setNavbarOpen((prev) => !prev)}/>
           <ul className={`hamburger ${navbarOpen ? 'show-hamburger' : ''}`}>
-            <li onClick={() => setNavbarOpen(false)}><a href="#">Home</a></li>
-            <li onClick={() => setNavbarOpen(false)}><a href="#">About</a></li>
+            <li onClick={() => setNavbarOpen(false)}><Link to="/">Home</Link></li>
+            <li onClick={() => setNavbarOpen(false)}><Link to="/about">About</Link></li>
             <li onClick={() => setNavbarOpen(false)}><a href="#">Academy</a></li>
             <li onClick={() => setNavbarOpen(false)}><a href="#">Blog</a></li>
           </ul>
         </div>
         <div className="app__navbar_menu">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
             <li><a href="#">Academy</a></li>
             <li><a href="#">Blog</a></li>
           </ul>
