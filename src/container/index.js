@@ -6,4 +6,4 @@ import Terms from "./Terms/Terms";
 import Contribute from "./Contribute/Contribute";
 import Conduct from "./Conduct/Conduct";
 
-export { Home, About, Privacy, Cookie, Terms, Contribute, Conduct }
+export { Home, About, Privacy, Cookie, Terms, Contribute, Conduct };
