@@ -40,7 +40,7 @@ const Blog = () => {
 			<div className="app__blog_articles">
 				{articles &&
                     articles.map((article) => (
-                    	<a href={"https://ldfhowto.vercel.app/#/" + article.slug.current} className="app__blog_articles_article" key={article.slug.current} target="_blank" rel="noopener noreferrer">
+                    	<a href={"https://ldfhowto.vercel.app/#/articles/" + article.slug.current} className="app__blog_articles_article" key={article.slug.current} target="_blank" rel="noopener noreferrer">
                     		<img src={article.mainImage.asset.url} alt="" />
                     		<div className="app__blog_articles_article_content">
                     			<h2>{article.title}</h2>
