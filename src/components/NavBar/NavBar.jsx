@@ -44,7 +44,7 @@ const NavBar = () => {
 						<li onClick={() => setNavbarOpen(false)}><Link to="/">Home</Link></li>
 						<li onClick={() => setNavbarOpen(false)}><Link to="/about">About</Link></li>
 						<li onClick={() => setNavbarOpen(false)}><a href="#">Academy</a></li>
-						<li onClick={() => setNavbarOpen(false)}><a href="#">Blog</a></li>
+						<li onClick={() => setNavbarOpen(false)}><a href="https://ldfhowto.vercel.app/" target="_blank" rel="noopener noreferrer">Blog</a></li>
 					</ul>
 				</div>
 				<div className="app__navbar_menu">
@@ -52,7 +52,7 @@ const NavBar = () => {
 						<li><Link to="/">Home</Link></li>
 						<li><Link to="/about">About</Link></li>
 						<li><a href="#">Academy</a></li>
-						<li><a href="#">Blog</a></li>
+						<li><a href="https://ldfhowto.vercel.app/s" target="_blank" rel="noopener noreferrer">Blog</a></li>
 					</ul>
 				</div>
 			</div>
