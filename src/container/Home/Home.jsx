@@ -64,7 +64,7 @@ const Home = () => {
 							<h3>Blog</h3>
 							<p>From thought-provoking articles on the latest trends in tech to in-depth interviews with industry experts, our blog offers a wealth of insights and inspiration.</p>
 						</div>
-						<a href="https://ldfhowto.vercel.app/s" target="_blank" rel="noopener noreferrer"><img src={arrow} alt="" /></a>
+						<a href="https://ldfhowto.vercel.app" target="_blank" rel="noopener noreferrer"><img src={arrow} alt="" /></a>
 					</div>
 				</div>
 			</div>
