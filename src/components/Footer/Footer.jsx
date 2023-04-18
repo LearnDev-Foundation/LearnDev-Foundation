@@ -16,9 +16,9 @@ const Footer = () => {
 					<p>LearnDev Foundation</p>
 				</div>
 				<div className="app__footer_content_socials">
-					<a href="mailto:learndevfoundation@gmail.com"><img src={email} alt="" /></a>
+					<a href="mailto:learndevfoundation@gmail.com" target="_blank" rel="noopener noreferrer"><img src={email} alt="" /></a>
 					<a href="https://github.com/learndev-foundation" target="_blank" rel="noopener noreferrer"><img src={github} alt="" /></a>
-					<a href="#"><img src={twitter} alt="" /></a>
+					<a href="https://twitter.com/LearnDevFdn" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="" /></a>
 				</div>
 			</div>
 			<div className="app__footer_bottom">
