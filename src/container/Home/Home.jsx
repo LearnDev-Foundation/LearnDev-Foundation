@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import { NavBar, Blog, Footer } from "../../components";
+import { NavBar, Blog, Footer, Newsletter } from "../../components";
 import osi from "../../assets/osi.svg";
 import landing from "../../assets/landing.svg";
 
@@ -69,6 +69,7 @@ const Home = () => {
 				</div>
 			</div>
 			<Blog />
+			<Newsletter />
 			<Footer />
 		</div>
 	);
