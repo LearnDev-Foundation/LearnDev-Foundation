@@ -26,7 +26,7 @@ const Home = () => {
 						<p>At LearnDev Foundation, we're dedicated to unlocking the potential of tech learners everywhere. Whether you're just starting out or looking to take your skills to the next level, we're here to support you on your learning journey.</p>
 						<div className="app__home_landing_content-text_buttons">
 							<a href="#" className="primary">Academy</a>
-							<a href="#" className="secondary">Roadmaps</a>
+							<a href="https://ldfroadmaps.vercel.app/" className="secondary">Roadmaps</a>
 						</div>
 					</div>
 					<img src={landing} className="app__home_landing_content-img" alt="" />
@@ -54,7 +54,7 @@ const Home = () => {
 							<h3>Roadmaps</h3>
 							<p>With curated learning paths and career guides, we provide a clear roadmap to help you achieve your tech career goals.</p>
 						</div>
-						<a href='#'><img src={arrow} alt="" /></a>
+						<a href='https://ldfroadmaps.vercel.app/'><img src={arrow} alt="" /></a>
 					</div>
 				</div>
 				<div className="app__home_cards_card">
