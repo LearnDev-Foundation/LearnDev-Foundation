@@ -43,7 +43,7 @@ const NavBar = () => {
 					<ul className={`hamburger ${navbarOpen ? "show-hamburger" : ""}`}>
 						<li onClick={() => setNavbarOpen(false)}><Link to="/">Home</Link></li>
 						<li onClick={() => setNavbarOpen(false)}><Link to="/about">About</Link></li>
-						<li onClick={() => setNavbarOpen(false)}><a href="#">Academy</a></li>
+						<li onClick={() => setNavbarOpen(false)}><a href="https://ldfacademy.vercel.app/">Academy</a></li>
 						<li onClick={() => setNavbarOpen(false)}><a href="https://ldfhowto.vercel.app/" target="_blank" rel="noopener noreferrer">Blog</a></li>
 					</ul>
 				</div>
@@ -51,7 +51,7 @@ const NavBar = () => {
 					<ul>
 						<li><Link to="/">Home</Link></li>
 						<li><Link to="/about">About</Link></li>
-						<li><a href="#">Academy</a></li>
+						<li><a href="https://ldfacademy.vercel.app/">Academy</a></li>
 						<li><a href="https://ldfhowto.vercel.app" target="_blank" rel="noopener noreferrer">Blog</a></li>
 					</ul>
 				</div>
